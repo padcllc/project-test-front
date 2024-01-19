@@ -1,7 +1,3 @@
-provider "aws" {
-  region = var.region  # Replace with your desired AWS region
-}
-
 # AWS Amplify App
 resource "aws_amplify_app" "my_amplify_app" {
   name       = var.amplify_app_name
